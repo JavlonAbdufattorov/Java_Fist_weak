@@ -4,10 +4,15 @@
         public static void main(String[] args) {
             int a = 12;
             int b = 2;
-            int resultOfAdition = a+b;// a,b -> operadns; + -> operators 
+            int resultOfAdition = a+b;// a,b -> operadns; + -> operators
             int resultOfSubstraction = a-b;
             int c = 5;
             int resultOfModuls = a%c;// При получение остатка от отрицательного числа в ответе появляется отрицательный остаток
+            //narrowing casting (manual casting)
+            short sh = 123;
+            byte w  = (byte)sh;
+            
+        
         }
         
     }
