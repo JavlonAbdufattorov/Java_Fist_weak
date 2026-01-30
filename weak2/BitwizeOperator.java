@@ -38,7 +38,8 @@ public class BitwizeOperator {
     System.out.println(s<<1);
     System.out.println(0b10000);
     int q = 0b10000000000000000000000000000000;
-    System.out.println(q);
-    System.out.println(q<<1);
+    System.out.println(q);//-2147483648
+    System.out.println(q<<1);//0b00000000000000000000000000000000
+    // в >> в случае этого противоположном стороне убирается один элемент и точно также добоаляется 0
     }
 }
