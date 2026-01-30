@@ -1,0 +1,44 @@
+package weak2;
+
+public class BitwizeOperator {
+    public static void main(String[] args) {
+        
+    
+    int a = 3; // в двоичном системе а = 11
+    int b = 2; // b = 10 
+    //bitwize or | вспоминаем дискретную математику
+    int r1 = a | b; // r1 = 3 
+    /*    |   =
+        1   1   1
+        1   0   1
+    */
+    // как будто все понятно
+
+    int r2 = 0b1111; // чтобы написать число в двоичном форме
+
+    System.out.println(r2);
+
+    System.out.println(~2); // -3 -2 -1 | 0 1 2 3
+    /*
+    ~2 -> ответ будет -3 наченая с 0 идем в отрицательном направление 3 числа и получаем -3
+    аналогично если:
+    ~-2 -> ответ будет 1 с нуля считаем 2 числа 0,1 и получаем ответ 1
+    */
+    
+    // по битовый сдвиг >> <<
+    int x = 0b00011001;
+    System.out.println(x);
+    int r3 = x << 1;
+    // 0 0 0 1 1 0 0 1
+    // << 1
+    // 0 0 1 1 0 0 1 0
+    
+    int s = 0b1000;
+    System.out.println(s);
+    System.out.println(s<<1);
+    System.out.println(0b10000);
+    int q = 0b10000000000000000000000000000000;
+    System.out.println(q);
+    System.out.println(q<<1);
+    }
+}
