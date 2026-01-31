@@ -1,4 +1,4 @@
-package weak2;
+package weak2.code;
 
 public class BitwizeOperator {
     public static void main(String[] args) {
