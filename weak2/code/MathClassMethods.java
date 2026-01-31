@@ -10,7 +10,8 @@ public class MathClassMethods {
         int max = Math.max(a, b);// возврошает самая большое из чисел
         int min = Math.min(a, b);// возврошеат минимум из чисел
         System.out.println(Math.abs(-100));// модуль числа |-100|
-        System.out.println(Math.pow(2, 3));//
-
+        System.out.println(Math.pow(2, 3));// 2 в степени 3  
+        System.out.println(Math.E+" "+Math.PI);// 2.71 и 3.14
+        
     }
 }
