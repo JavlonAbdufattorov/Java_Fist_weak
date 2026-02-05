@@ -7,3 +7,9 @@ https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html
 # Codeforses 427A
 
 https://codeforces.com/contest/427/problem/A
+
+# Unicode
+https://habr.com/ru/articles/714540/
+
+## Unicode numbers
+https://home.unicode.org/
