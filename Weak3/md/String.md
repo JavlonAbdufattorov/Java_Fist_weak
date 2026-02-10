@@ -120,3 +120,22 @@ System.out.println(s.trim()); // "Java Core"
 String s = "";
 System.out.println(s.isEmpty()); // true
 ```
+
+## join(CharSequence delimiter, CharSequence... elements)
+Объединяет несколько строк в одну, используя указанный разделитель между ними.
+
+Пример:
+```java
+String result = String.join(", ", "Java", "Python", "C++");
+System.out.println(result);
+// "Java, Python, C++"
+```
+
+Пример с массивом:
+```java
+String[] languages = {"Java", "Python", "C++"};
+String result = String.join(" | ", languages);
+System.out.println(result);
+// "Java | Python | C++"
+```
+
