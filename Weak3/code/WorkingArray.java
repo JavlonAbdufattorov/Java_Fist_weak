@@ -36,7 +36,20 @@ public class WorkingArray {
         System.out.println(str);// а стоп тоСтринг с помошью класса Аррай нужно делать)
         Arrays.sort(array2);//сортировка массива
         System.out.println(Arrays.toString(array2));
-        int index1 = Arrays.binarySearch(array2, 56);
+        int index1 = Arrays.binarySearch(array2, 56);// находит индекс котором находится число
         System.out.println(index1);
+
+        int [][] matrix = {
+            {12,2,3},
+            {5,5,5},
+            {2,14,5},
+            {11,3,1}
+        };
+        for(int[] row:matrix){
+            for(int elements : row){
+                System.out.print(elements + "\t");
+            }
+            System.out.println();
+        }
     } 
 }
