@@ -23,7 +23,7 @@ public class WorkingArray {
             System.out.println(array[i]);
         }
         System.out.println(array.toString());// тоСтринг тоже возврошеат ссыку оказыватеся)
-        int[] array2 = new int[] {3,4,56,7,3,3};
+        int[] array2 = {3,4,56,7,3,3};
         for (int i = 0; i < array2.length; i++) {
             System.out.println(array2[i]);
         }
