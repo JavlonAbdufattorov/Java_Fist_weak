@@ -1,5 +1,8 @@
 package Weak3.code;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class WorkingArray {
 
     public static void main(String[] args) {
@@ -27,5 +30,13 @@ public class WorkingArray {
         for (int i = 0; i < array2.length; i++) {
             System.out.println(array2[i]);
         }
+
+
+        String str = Arrays.toString(array2);
+        System.out.println(str);// а стоп тоСтринг с помошью класса Аррай нужно делать)
+        Arrays.sort(array2);//сортировка массива
+        System.out.println(Arrays.toString(array2));
+        int index1 = Arrays.binarySearch(array2, 56);
+        System.out.println(index1);
     } 
 }
