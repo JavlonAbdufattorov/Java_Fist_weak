@@ -1,6 +1,8 @@
 package Week_5_6_7.fist_task;
 
-public class Book {
+import online.src.Just;
+
+public class Book extends Just{
     public String title;//field
     int pageCount;//field
     //Method
