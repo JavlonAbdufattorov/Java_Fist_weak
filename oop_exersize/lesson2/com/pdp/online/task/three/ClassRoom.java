@@ -1,5 +1,7 @@
 package oop_exersize.lesson2.com.pdp.online.task.three;
-
+/**
+ * <code>ClassRoom</code> Класс для создание комнаты
+ */
 public class ClassRoom {
     Teacher teacher;
     Student[] student;
@@ -12,6 +14,10 @@ public class ClassRoom {
         this.roomNumber = roomNumber;
         this.studentCount = srStudent.length;
     }
+    /**
+     * 
+     * @return Возврашает номер комнаты
+     */
     public int getRoomNumber() {
         return roomNumber;
     }
