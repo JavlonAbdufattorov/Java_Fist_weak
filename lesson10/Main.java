@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+/**
+ * Quiz Management System
+ *
+ * @author Javlon Abdufattorov
+ * @since 2026-06-14
+ */
 public class Main {
     public static void main(String[] args) {
         var scan = new Scanner(System.in);
@@ -12,7 +18,7 @@ public class Main {
         questions[0].add(new Answer("9", false));
         questions[0].showUUID();
         String users[][] = new String[10][3];
-        int userCount = 0;
+        int userCount = 0;// i dont know why its needed just writs in technical specifications
         while (true) {
             System.out.println("1 ---> Sing in");
             System.out.println("2 ---> Registration");
@@ -78,7 +84,13 @@ public class Main {
 
 
 
-
+/**
+ * Показывает меню студента и запускает тест.
+ *
+ * @param scan объект Scanner для ввода данных
+ * @param questions массив вопросов теста
+ * @param userResult массив для хранения результатов пользователя
+ */
     public static void studentMenu(Scanner scan,Question[] questions,String[][] userResult ){
 System.out.println("1 ---> Start");
 System.out.println("2 ---> Exit");
@@ -116,7 +128,12 @@ for (int i = 0; i < 10; i++) {
 }
 
 }
-
+/**
+ * Меню преподавателя для управления тестами.
+ *
+ * @param scan объект Scanner для ввода данных
+ * @param questions массив вопросов
+ */
 public static void teacherMenu(
         Scanner scan,
         Question[] questions) {

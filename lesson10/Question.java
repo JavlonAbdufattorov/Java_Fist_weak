@@ -1,4 +1,10 @@
 
+/**
+ * Меню преподавателя для управления тестами.
+ *
+ * @param scan объект Scanner для ввода данных
+ * @param questions массив вопросов
+ */
 public class Question extends GenericClass implements Quiz{
     
     private String questionText;
