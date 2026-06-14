@@ -10,6 +10,7 @@ public class Main {
         questions[0].add(new Answer("5", false));
         questions[0].add(new Answer("4", true));
         questions[0].add(new Answer("9", false));
+        questions[0].showUUID();
         String users[][] = new String[10][3];
         int userCount = 0;
         while (true) {

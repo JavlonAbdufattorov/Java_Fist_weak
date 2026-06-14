@@ -10,6 +10,10 @@ public class Question extends GenericClass implements Quiz{
     public Question(String questionText){
         this.questionText = questionText;
     }
+    //just watch how its work
+    void showUUID(){
+        System.out.println(id);
+    }
 
     
     public void add(Answer answer){
